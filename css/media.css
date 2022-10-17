@@ -1,0 +1,269 @@
+/* 
+  ##Device = Desktops,xxl
+
+*/
+
+@media (min-width: 1400px) {
+  /* CSS */
+}
+
+/* 
+        ##Device = Laptops, Desktops,xl
+        
+      */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* CSS */
+}
+
+/* 
+        ##Device = lg
+        
+      */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS */
+  /* header section */
+  .custom-menu ul li a{
+    margin: 0 4rem !important;
+  }
+  /* slider section starts */
+  .slider-section{
+    padding-top: 10px;
+  }
+  .custom-indicators {
+    bottom: -65px;
+  }
+  .slider-image img{
+    width: 75%;
+  }
+  /* slider section ends */
+  /* ===== features section starts ===== */
+  .features-section {
+    padding: 80px 0px 40px;
+  }
+ 
+  .fea-des {
+    padding: 22px 0;
+  }
+  .features {
+    padding-top: 0px;
+  }
+
+
+  .feature-icon ul li i {
+    font-size: 3.8rem;
+  }
+  .common-feature-type {
+    font-size: 2.2rem;
+  }
+  .feature-items {
+    padding: 30px 10px;
+    margin: 5px 6px;
+    transition: .5s;
+  }
+  /* ===== features section starts ===== */
+
+}
+
+/* 
+        ##Device = Tablets, md
+        
+      */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* css */
+  /* ======== header starts ====== */
+  .custom-menu ul li a {
+    margin: 0 1rem !important;
+    padding-bottom: 1rem;
+    
+   }
+  /* ======== header ends ====== */
+/* ====== slider section starts ====== */
+.slider-section{
+ }
+ .custom-indicators {
+  bottom: -75px;
+ }
+ .slider-text-wrap {
+ }
+ .slider-text{
+  padding-right: 40px;
+  text-align: left;
+ }
+/* ===== slider section ends ====== */
+ /* ======= features section starts ====== */
+ .features-section {
+  padding: 60px 0px 38px;
+}
+
+ .features {
+  padding-top: 10px;
+  text-align: center;
+}
+ .fea-des {
+  padding: 20px 0;
+ }
+ /* ======= features section starts ====== */
+/* ============ footer=========== */
+.one{
+  padding-bottom: 30px;
+}
+}
+/* 
+      ##Device = Mobiles (Landscape),sm
+      
+    */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS */
+  /* slider section */
+  .slider-section {
+    padding: 10px 0 90px;
+ }
+ .custom-indicators {
+  bottom:-70px;
+ }
+
+ .slider-text-wrap{
+  text-align: center;  
+  padding: 0 30px;
+  }
+  .slider-icon ul li:first-child i{
+    padding-left: 30px;
+  }
+/* ====== features section starts ===== */
+.features-section {
+  padding: 60px 0px 30px;
+}
+
+.fea-des {
+  padding: 20px 0;
+}
+.features {
+  padding-top: 10px;
+  text-align: center;
+}
+.feature-items {
+  padding: 21px 16px;
+  margin: 8px 40px;
+}
+.feature-icon ul li {
+  padding-right: 15px;
+}
+/* ===== footer section=== */
+
+footer{
+  padding: 0px 0 60px;
+}
+.one{
+  padding-bottom: 30px;
+}
+}
+/* 
+      ##Device = Most of the Smartphones Mobiles (Portrait),es,col
+    */
+
+@media (max-width: 575.98px) {
+  /* CSS */
+  /* ======== header starts ====== */
+  header{
+    padding: 0rem 1rem;
+  
+  }
+  .custom-menu ul li a {
+    font-size: 1.6rem;
+    margin: 0 1rem !important;
+    padding-bottom: 1rem;
+   }
+  /* ======== header ends ====== */
+  /* slider section */
+  .slider-section {
+    padding-bottom: 80px;
+  }
+  .slider-text-wrap{
+  text-align: center;
+  
+  }
+  .slider-icon ul li i{
+    padding: 0 20px;
+  }
+  .slider-icon ul li:first-child i{
+    padding-left: 25px;
+  }
+.custom-indicators {
+  bottom: -55px;
+  }
+  .s-title{
+    font-size: 1.5rem;
+  }
+  .s-des{
+    font-size: 1.8rem;
+    padding: 1.2rem 0;
+  }
+  .slider-icon ul li i {
+    font-size: 3rem;
+  }
+  .custom-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+  }
+/* ====== features section starts ====== */
+.features-section {
+  padding: 40px 0px 20px;
+}
+
+.common-title {
+  font-size: 2.8rem;
+}
+.common-desc {
+  font-size: 1.8rem;
+}
+.features {
+  padding-top: 0px;
+  text-align: center; 
+}
+.feature-icon ul li {
+  padding-right: 15px;
+}
+.feature-icon ul li i {
+  font-size: 3.5rem;
+}
+.common-feature-type {
+  font-size: 2rem;
+}
+.feature-items {
+  padding: 20px 15px;
+  margin: 10px 30px;
+}
+/* ====== features section starts ====== */
+/* ====footer ==== */
+.contact-section {
+  padding: 58px 0;
+}
+.custom-input {
+  height: 48px;
+}
+.btn-contact {
+  height: 40px;
+  font-size: 1.4rem;
+}
+footer{
+  padding: 10px 0 50px;
+}
+.one{
+  padding-bottom: 30px;
+}
+
+.social-icons ul li i {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 2rem;
+}
+.footer{
+  text-align: left;
+}
+
+}
+

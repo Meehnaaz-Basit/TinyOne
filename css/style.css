@@ -1,0 +1,284 @@
+/* == common css starts == */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body{
+  font-family:'PT Sans', sans-serif; 
+  font-size: 1.6rem;
+  font-weight: 400;
+  
+}
+li, a{
+  list-style: none;
+  text-decoration: none;
+}
+/* == common css ends == */
+/* common css */
+.common-title{
+font-size: 3.6rem;
+font-weight: 700;
+}
+.common-desc{
+  font-size: 2rem;
+  color: #313841;
+
+}
+.common-paragraph{
+  color: #898989;
+  font-size: 1.6rem;
+}
+
+
+/* header */
+header{
+  background-color: #fcdb00;
+  padding: 1rem 0;
+
+}
+.custom-navbar{
+
+}
+.custom-logo{
+padding: 2rem 0;
+}
+.custom-menu{
+  text-transform: capitalize;
+}
+.custom-menu ul li a{
+  font-family:'PT Sans', sans-serif; 
+  font-size: 2rem;
+  font-weight: 700;
+  color: #010101;
+  margin: 0 5.5rem !important;
+  transition: .3s;
+}
+.custom-menu ul li:last-child a{
+margin-right: 0!important;
+}
+.custom-menu ul li a:hover{
+color: white !important;
+transition: .3s;
+}
+/* == header end */
+
+/* ===== slider starts */
+.slider-section{
+  padding: 20px 0 120px;
+  background-color: #fcdb00;
+ 
+}
+
+.custom-indicators {
+  bottom: -90px;
+}
+
+.custom-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.slider-text{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.slider-text-wrap{
+ 
+}
+.s-title{
+
+}
+.s-des{
+padding: 2rem 0 ;
+}
+.s-p{
+color: #555555;
+
+}
+.slider-icon{
+padding-top: 30px;
+}
+
+.slider-icon ul li i {
+  font-size: 4rem;
+  color: #010101;
+  padding:0 30px;
+  transition: .5s;
+}
+.slider-icon ul li:first-child i{
+  padding-left: 0;
+}
+.slider-icon ul li i:hover{
+  color: white;
+  transition: .5s;
+  transform: scale(.8);
+}
+.slider-image{
+  text-align: center;
+}
+.slider-image img{
+transition: .5s;
+}
+.slider-image img:hover{
+transform: scale(.9);
+transition: .5s;
+}
+
+/* ===== slider ends */
+/* =========features section ======== */
+.features-section{
+  padding: 100px 0px 50px ;
+}
+
+.fea-title{
+
+}
+.fea-des{
+padding: 30px 0;
+}
+.features{
+  padding-top: 20px;
+}
+.feature-items{
+  padding: 30px 15px;
+  margin: 20px 32px;
+  transition: .5s;
+}
+.feature-items:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  transition: .5s;
+}
+.feature-icon{
+
+}
+.feature-icon ul li{
+  text-align: center;
+}
+
+.feature-icon ul li i{
+color: #010101;
+font-size: 4.5rem;
+}
+.feature-details{
+
+}
+.common-feature-type{
+font-size: 2.5rem;
+color: #010101;
+font-weight: 700;
+}
+.fea-pera{
+  padding-top: 8px;
+}
+
+/* ====== contact section starts ===== */
+
+/* form */
+.contact-section{
+  padding: 100px 0;
+  background-color: #010101;
+}
+.contact-form{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.con-title{
+color:#fcdb00 ;
+}
+.con-des{
+color: #898989;
+}
+.c-form{
+padding: 30px 0;
+}
+.custom-input{
+height: 55px;
+font-size: 1.6rem;
+color: #898989;
+padding: 0 15px ;
+}
+.btn-contact{
+  width: 100%;
+  height: 55px;
+  font-family:'PT Sans', sans-serif; 
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: #fcdb00;
+  color: #010101;
+  border: 2px solid #fcdb00;
+  text-transform: uppercase;
+  transition: .5s;
+}
+.btn-contact:hover{
+  color: #fcdb00 !important;
+  background-color: #010101;
+  border: 2px solid #fcdb00 !important;
+  transition: .5s;
+}
+.social-icons{
+padding-top: 40px;
+}
+.social-icons ul li{
+padding: 0 10px;
+}
+.social-icons ul li i {
+width: 45px;
+height: 45px;
+line-height: 45px;
+border-radius: 50%;
+font-size: 3rem;
+color: #010101;
+background-color: #fcdb00;
+transition: .5s;
+}
+.social-icons ul li i:hover{
+transform: scale(.8);
+transition: .5s;
+}
+/* ====== contact section starts ===== */
+/* ====== footer section====== */
+footer{
+  padding: 30px 0 60px;
+background-color: #010101;
+}
+.footer{
+
+}
+.footer p, .footer p a{
+color: white;
+font-weight: 400;
+text-transform: capitalize;
+transition: .3s;
+}
+.footer p a:hover, .copyright span a:hover{
+color: #fcdb00;
+transition: .3s;
+}
+.p-small{
+  text-transform: lowercase !important;
+}
+.one{
+padding-right: 20px;
+}
+.copyright{
+  color: rgb(157, 156, 156);
+  text-align: center;
+ padding-top: 60px ;
+}
+.copyright span a{
+  color: white;
+  transition: .3s;
+}
